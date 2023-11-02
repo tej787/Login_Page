@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg">
+  <form action="login.php" method="post">
+  <div class="panel">
+		<div class="state"><br><i class="fa fa-lock fa-2x" aria-hidden="true"></i><br><h1>Log in</h1></div>
+		<div class="form">
+			<div style="display: flex; align-items: center;">
+        <i class="fas fa-user icon" ></i>
+        <input placeholder="Username" type="text" name="username" required>
+      </div>
+
+      <div style="display: flex; align-items: center;">
+      <i class="fa fa-key icon"></i>
+			<input placeholder='Password' type="password" name="password" required>
+      </div>
+
+			<button type="submit" class="login">Login</button>
+		</div>
+    <div style="color: white ;" class="fack" ><i>Doesn`t have an account yet? </i><a href="singup.html" style="padding-left: 2px;">  Sign Up</a></div>
+		<div class="fack"><a href="forgot.html  "><i class="fa fa-question-circle"></i>Forgot password?</a></div>
+	</div>
+  </form>
+</body>
+</html>
